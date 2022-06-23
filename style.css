@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 450px;
+    width: 400px;
+    background-color: grey;
+    padding: 20px;
+}
+
+.heading{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#calculations{
+    height: 80px;
+    border: 1px grey solid;
+    background-color: azure;
+    margin-bottom: 10px;
+}
+
+#button-area{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#button-area button{
+    height: 50px;
+    margin: 1px;
+}
+
+#button-area button:hover {
+    background-color: yellow;
+}
+
+#button-area #zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.color{
+    background-color: red;
+}
